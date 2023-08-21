@@ -1,0 +1,29 @@
+.outContainer {
+    width: 100%;
+    min-height: 70vh;
+    padding: 200px 0;
+
+}
+
+.innerContainer {
+    max-width: var(--max-width);
+    margin-inline: var(--padding-inline);
+    margin-inline: auto;
+    padding-inline: var(--padding-inline);
+}
+
+.titleContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+    align-items: center;
+    row-gap: 2rem;
+
+}
+
+.subTitle {
+    text-align: center;
+    font-size: 1.7rem;
+}
