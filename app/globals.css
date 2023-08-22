@@ -1,14 +1,10 @@
 :root {
-
-
-
-
-
+  --section-spacing: 150px;
   --blue-light: rgb(89, 169, 248);
   --blue-dark: rgb(3, 14, 221);
   --border-light: white;
   --padding-inline: .6rem;
-  --max-width: 1100px;
+  --max-width: 1200px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
@@ -43,13 +39,10 @@
     #00000080
   );
 
-  --callout-rgb: 238, 240, 241;
-  --callout-border-rgb: 172, 175, 176;
-  --card-rgb: 180, 185, 188;
-  --card-border-rgb: 131, 134, 135;
+  --card-border : #0000001f;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: drak) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;

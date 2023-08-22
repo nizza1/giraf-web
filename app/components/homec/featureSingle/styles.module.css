@@ -1,0 +1,41 @@
+.outContainer {
+
+    border: 1px solid var(--card-border);
+    border-radius: var(--border-radius);
+    padding-inline:  .8rem;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    transition-duration: .3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+}
+
+.outContainer:hover {
+    transform: scale(.98);
+} 
+
+.iconTitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+
+}
+
+.title {
+    
+    background-image:linear-gradient(60deg, var(--blue-dark), var(--blue-light) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+
+.icon {
+  /*   margin-bottom: 1.2rem; */
+    font-size: 3rem;
+    color: var(--blue-dark);
+}
