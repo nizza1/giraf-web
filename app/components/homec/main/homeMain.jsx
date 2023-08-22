@@ -4,17 +4,21 @@ import styles from './styles.module.css'
 //components 
 import ContentCard from '../featureSingle/contentCard'
 
-import { FaCogs, FaFlag, FaHandshake, FaGlobe } from 'react-icons/fa';
+import {FaHandshake } from 'react-icons/fa';
+import {BsGlobeEuropeAfrica } from 'react-icons/bs';
+import {BiSolidAnalyse } from 'react-icons/bi';
+
+
 const HomeMain = () => {
 
     const features = [
         {
-            icon: <FaCogs />,
+            icon: <BsGlobeEuropeAfrica />,
             title: 'Expertise in Multilateral Project Design and Implementation',
             content: 'GIRAF PM e.K. is an independent company with its core expertise in designing and implementing international multilateral projects in the field of research and education. Combining fundamental project management and business process engineering techniques with substantial practical experience in various funding schemes operation, GIRAF PM helps scientists, educators and innovative entrepreneurs to achieve their goals.'
         },
         {
-            icon: <FaFlag />,
+            icon: <BiSolidAnalyse />,
             title: 'Comprehensive Project Lifecycle Solutions',
             content: 'The company provides specialized services for every step of a project life cycle, starting from proposal writing and project acquisition over project management, business process analysis and design to dissemination and exploitation services. General translation services offered by GIRAF PM enable even the most heterogeneous consortia to work together internationally without barriers.'
         },

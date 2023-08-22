@@ -1,0 +1,88 @@
+.outContainer {
+    min-height: 200px;
+    width: 100%;
+
+
+}
+
+.innerSection {
+    max-width: var(--max-width);
+    margin-inline: auto;
+    min-height: 200px;
+    padding-inline: var(--padding-inline);
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 790px) {
+    .innerSection {
+        flex-direction: column;
+        row-gap: 3rem;
+    }
+}
+
+
+
+/* form  */
+
+.block {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  .form {
+    font-size: 1rem;
+    border-radius: 10px;
+    width: 85%;
+    padding: 3rem 1rem;
+    max-width: 500px;
+    border: 1px solid var(--border-card);
+    border-radius: var(--border-radius);
+    width: 100%;
+ 
+  }
+  
+  .form input {
+    font-size: 1rem;
+    margin: 10px 0 10px 0px;
+    border-color: rgb(31, 28, 28);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid var(--border-card);
+    border-radius: var(--border-radius);
+  }
+  
+  .form textarea {
+    margin: 10px 0 10px 0px;
+    padding: 5px;
+    border: 1px solid var(--border-card);
+    border-radius: var(--border-radius);
+    background-color:transparent;
+    font-size: 20px;
+  }
+  
+  
+  .name div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .block button {
+    padding: 10px;
+    font-size: 20px;
+    width: 30%;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+  }
+  
+  .textarea {
+    resize: none;
+  }
