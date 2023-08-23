@@ -32,7 +32,7 @@ const HomeMain = () => {
     <div className={styles.outContainer}>
         <div className={styles.innerContainer}>
             {features.map(feature =>{
-                return <ContentCard icon={feature.icon} title={feature.title} content={feature.content}/>
+                return <ContentCard key={feature.title} icon={feature.icon} title={feature.title} content={feature.content}/>
             })}
         </div>
     </div>
@@ -40,3 +40,4 @@ const HomeMain = () => {
 }
 
 export default HomeMain
+

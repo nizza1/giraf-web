@@ -6,7 +6,8 @@ const Footer = () => {
   return (
     <div className={styles.outContainer}>
         <div className={styles.innerContainer}>
-            <h1>Foote</h1>
+            <p>Footer</p>
+    
         </div>
     </div>
   )

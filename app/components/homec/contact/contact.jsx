@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 
 
@@ -6,15 +8,26 @@ import styles from './styles.module.css'
 //components 
 import ContactButton from '@/app/components/buttons/contact/contactButton'
 
-/* className={`${styles.myStyle1} ${styles.myStyle2}`} */
+//lottie 
+import Lottie from "lottie-react";
+import contactAnimations from '@/app/animations/animation_ll5965nn.json';
+
+
 /* container to form changed */
 const Contact = () => {
   return (
     <div className={styles.outContainer}>
         <div className={styles.innerSection}>
         <div className={styles.textAnimations}>
-            <h1>GIT IN TOUCH</h1>
+            <h1 className={styles.text}>GIT IN TOUCH</h1>
+
+            <div className={styles.animationContainer}>
+            <Lottie className={styles.animationsContact}
+                  animationData={contactAnimations} />
+            </div>
+
         </div>
+
         <form className={styles.form}>
      
       <div className={`${styles.email} ${styles.block}`}>

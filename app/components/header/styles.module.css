@@ -27,6 +27,23 @@
 
 .navmenu {
     display: flex;
-    column-gap: 1rem;
+    column-gap: 1.3rem;
     align-items: center;
+}
+
+.links {
+
+    padding: .3rem .7rem;
+    border-radius: 1rem;
+    transition-duration: .3s;
+    outline: 1px solid rgba(0, 0, 0, 0.066);
+}
+
+.links:hover {
+    background-color: rgba(0, 0, 0, 0.066);
+  /*   background-color: rgba(0, 0, 0, 0.263); */
+/*   background-color: transparent; */
+  outline: 1px solid transparent;
+   /*  color : aliceblue; */
+    transform: scale(1.1);
 }

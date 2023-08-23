@@ -5,10 +5,22 @@ import styles from './styels.module.css'
 //components 
 import Title from '@/app/components/title/title'
 import Contact from '@/app/components/buttons/contact/contactButton'
+
+//lotie animations
+import Animation from '../homec/animationscon/animationco'
+
+import homeAnimation from '@/app/animations/homeani.json';
+
+
+
 const Hero = () => {
   return (
     <div className={styles.outContainer}>
         <div className={styles.innerContainer}>
+            <div className={styles.animationBack}>
+            <Animation src={homeAnimation} />
+            </div>
+         
             <div className={styles.titleContainer}>
             <Title text='GIRAF PM'/>
             <h1 className={styles.subTitle}>
