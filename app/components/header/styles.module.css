@@ -1,6 +1,6 @@
 .outContainer {
     position: fixed ;
-    /*  position: sticky; */
+ /*     position: sticky; */
     width: 100%;
      top: 0px;
      background-color: #ffffff72;
@@ -9,13 +9,24 @@
      -moz-backdrop-filter: blur(12px) ;
      border-bottom: 1px solid var(--border-light);
      z-index: 10;
+     max-height: 70px;
 }
 
-.innerContainer {
 
+
+.innerContainer {
+    width: 100%;
     max-width: var(--max-width);
-    margin-inline:auto ;
+    margin-inline:auto;
     padding: 1rem var(--padding-inline);
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+.navmenu {
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
 }

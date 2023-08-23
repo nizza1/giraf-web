@@ -1,9 +1,12 @@
+
+
 import React from 'react'
 import Logo from 'next/image'
 
 //import styles 
 import styles from './styles.module.css'
-import Contact from '@/app/components/buttons/contact/contactButton'
+import Link from 'next/link'
+
 
 const Header = () => {
   return (
@@ -13,9 +16,14 @@ const Header = () => {
             <h1>Log</h1>
         </div>
 
-        <div className={styles.navConatiner }>
-            <h1>NAV</h1>
-        </div>
+      
+            <div className={styles.navmenu}>
+            <Link href="/">Home</Link>
+             <Link href="/projects">Projects</Link>
+             <Link href="/services">Services</Link>
+             <Link href="/news">News</Link>
+            </div>
+   
         </div>
         
     </div>
