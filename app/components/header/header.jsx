@@ -7,6 +7,8 @@ import Logo from 'next/image'
 import styles from './styles.module.css'
 import Link from 'next/link'
 
+import Titlesmall from '@/app/components/title/titlesmall/title'
+
 
 const Header = () => {
   return (
@@ -14,7 +16,7 @@ const Header = () => {
 
         <div className={styles.innerContainer}>
         <div className={styles.logoContainer}>
-            <h1>Log</h1>
+            <Titlesmall text='GIRAF'/>
         </div>
 
       
