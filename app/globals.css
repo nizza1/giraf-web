@@ -1,4 +1,8 @@
 :root {
+  --blue-gradient : linear-gradient(
+    var(--blue-dark),
+    var(--blue-light)
+  );
   --section-spacing: 150px;
   --blue-light: rgb(89, 169, 248);
   --blue-dark: rgb(3, 14, 221);
@@ -48,6 +52,8 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0 , 0, 52;
     --background-end-rgb: 20, 20, 20;
+
+  
 
     --border-card : #e9e9e96e;
 

@@ -19,6 +19,8 @@ const Contact = () => {
     <div className={styles.outContainer}>
         <div className={styles.innerSection}>
         <div className={styles.textAnimations}>
+
+          <div className={styles.gradientBlue}></div>
             <h1 className={styles.text}>GIT IN TOUCH</h1>
 
             <div className={styles.animationContainer}>
