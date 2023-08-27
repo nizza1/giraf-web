@@ -1,7 +1,8 @@
 .outContainer {
     min-height: 200px;
     width: 100%;
-
+    padding-top: var(--section-spacing);
+    padding-bottom: var(--section-spacing);
 
 }
 

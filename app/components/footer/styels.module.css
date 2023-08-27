@@ -1,16 +1,16 @@
 .outContainer {
      width: 100%;
-     background-color: #ffffff72;
+     background: var(--blue-gradient);
      backdrop-filter: blur(16px);
      -webkit-backdrop-filter: blur(12px);
      -moz-backdrop-filter: blur(12px) ;
      z-index: 10;
-     border-bottom: 1px solid var(--border-light);
-     border-top: 1px solid var(--border-light);
+    
+     color: aliceblue;
 
 }
 
-.outContainer {
+.innerContainer {
     max-width: var(--max-width);
     margin-inline:auto ;
     padding: 1rem var(--padding-inline);

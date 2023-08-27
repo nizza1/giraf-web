@@ -1,0 +1,17 @@
+.contents {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.postContainer {
+    margin-top: 100px;
+}
+
+.titleContainer {
+
+    padding: 1.5rem 0 ;
+
+}
+.blogLink {
+    color : var(--blue-dark)
+}

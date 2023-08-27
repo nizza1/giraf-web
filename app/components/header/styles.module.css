@@ -3,7 +3,7 @@
  /*     position: sticky; */
     width: 100%;
      top: 0px;
-     background-color: #ffffff72;
+     background-color: var(  --header-bk);
      backdrop-filter: blur(16px);
      -webkit-backdrop-filter: blur(12px);
      -moz-backdrop-filter: blur(12px) ;

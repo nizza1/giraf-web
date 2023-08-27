@@ -1,0 +1,15 @@
+.outContainer {
+
+    width: var(--max-width);
+    margin-inline: auto;
+    padding: 1rem var(--padding-inline);
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.outContainer li {
+    margin-left: 1rem;
+}

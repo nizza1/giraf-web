@@ -1,0 +1,12 @@
+.outContainer {
+
+
+}
+
+.innerContainer {
+
+    max-width: var(--max-width);
+    padding-inline: var(--padding-inline);
+    margin-inline: auto;
+    margin-bottom: 3rem;
+}

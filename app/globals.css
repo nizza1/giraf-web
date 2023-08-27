@@ -6,11 +6,13 @@
   --section-spacing: 150px;
   --blue-light: rgb(89, 169, 248);
   --blue-dark: rgb(3, 14, 221);
-  --border-light: white;
+  --border-light: #00000030;
   --border-card : #00000020;
   --padding-inline: .6rem;
   --max-width: 1200px;
   --border-radius: 12px;
+  --header-bk:#ffffffad;
+  
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
@@ -47,11 +49,14 @@
   --card-border : #0000001f;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: ark) {
   :root {
+    --card-border : #a3a3a352;
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0 , 0, 52;
+    --background-start-rgb: 10 , 10, 12;
     --background-end-rgb: 20, 20, 20;
+    --blue-dark: rgb(15, 82, 250);
+    --header-bk:#2d2d2dad;
 
   
 
