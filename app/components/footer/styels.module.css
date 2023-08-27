@@ -1,6 +1,6 @@
 .outContainer {
      width: 100%;
-     background: var(--blue-gradient);
+     background: black;
      backdrop-filter: blur(16px);
      -webkit-backdrop-filter: blur(12px);
      -moz-backdrop-filter: blur(12px) ;

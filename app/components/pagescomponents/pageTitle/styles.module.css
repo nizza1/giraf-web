@@ -15,7 +15,7 @@
 
 .line {
     height: 1px;
-    background-color: var(--border-light);
+    background-color: #000;
     width: 100%;
     max-width: 600px;
 }
