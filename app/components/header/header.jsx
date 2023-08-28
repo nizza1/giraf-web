@@ -42,6 +42,13 @@ const Header = () => {
              <Link className={styles.links} href="/services">Services</Link>
              <Link className={styles.links} href="/news">News</Link>
             </div>
+
+            <div className={`${styles.menuMobile} ${isOpen ? '' : styles.menuMobileClose}`}>
+            <Link className={styles.linksM} href="/">Home</Link>
+             <Link className={styles.linksM} href="/projects">Projects</Link>
+             <Link className={styles.linksM} href="/services">Services</Link>
+             <Link className={styles.linksM} href="/news">News</Link>
+            </div>
    
         </div>
         
