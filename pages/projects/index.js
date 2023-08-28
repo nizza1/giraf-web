@@ -18,12 +18,15 @@ const Projects = () => {
         <PageTitle text='Projects' />
       </div>
 
+        <div className={styles.pageBody}>
+
+        
       <div className={styles.projectBodyWrapper}>
 
         <Tl year='2023-2026' />
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
-          <h2 className={styles.bodyTitle}>## MICROCASA (2023-2026)</h2>
+          <h2 className={styles.bodyTitle}>## MICROCASA </h2>
           <p className={styles.description}>is the first international project aimed at sharing the European experiences and building institutional capacities in Southeast Asia to co-create, promote and deliver short competence-oriented educational units leading to micro-credentials with the goal of solving various economic and social problems. </p>
           <p className={styles.description}>
             Focusing on different aspects of micro-credentialing, for instance course content co-creation, educational technology, transparent quality assurance, technologies for issuance and verification of digital micro-credentials, the project builds a comprehensive set of competences and technical capacities in Southeast Asian Universities. Leveraging on the partner networks, as well as on the links to the national educational authorities and regional initiatives, MICROCASA has an ambition to have a systemic impact on the ASEAN region as a whole.</p>
@@ -63,7 +66,7 @@ const Projects = () => {
 
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
-          <h2 className={styles.bodyTitle}>## MENVIPRO (2018-2022)</h2>
+          <h2 className={styles.bodyTitle}>## MENVIPRO </h2>
           <p className={styles.description}>
           The overall objective of the project is to significantly improve the quality of MSc studies in the field of Environment Protection in Armenia and Georgia on the basis of complex modernization of the curricula in line with the Bologna principles, Salzburg principles of EAU and best European practice.
           </p>
@@ -101,7 +104,7 @@ const Projects = () => {
 
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
-          <h2 className={styles.bodyTitle}>## ECoVEM (2020-2024)</h2>
+          <h2 className={styles.bodyTitle}>## ECoVEM </h2>
           <p className={styles.description}>
           ECoVEM is an Erasmus+ KA3 project building a European VET Centre of Excellence in the field of Miscoelectronics, the project website is here ECoVEM
           
@@ -121,7 +124,7 @@ const Projects = () => {
       </div>
       </div>
      
-
+      </div>
     
     </div>
 

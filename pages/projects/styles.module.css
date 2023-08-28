@@ -7,6 +7,11 @@
     max-width: var(--max-width);
     padding-inline: var(--padding-inline);
     margin-inline: auto;
+    
+}
+
+.pageBody {
+    padding-bottom: 200px;
 }
 
 .projectBodyWrapper {
