@@ -15,7 +15,7 @@
     margin-inline: auto;
     max-width: 900px;
     margin-inline: auto;
-    margin-bottom: 100px;
+    padding-bottom: 200px;
     background:  linear-gradient(rgba(57, 143, 255, 0.366), rgba(0, 0, 0, 0)); 
 /*   --tile-border */
   /* background: var(  --secondary-glow); */
