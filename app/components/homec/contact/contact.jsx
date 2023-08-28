@@ -31,7 +31,7 @@ const Contact = () => {
 
         </div>
 
-        <form className={styles.form}>
+        <form id='contact-form' className={styles.form}>
      
       <div className={`${styles.email} ${styles.block}`}>
         <label  htmlFor="frm-email">Email</label>
