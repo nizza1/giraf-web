@@ -43,7 +43,7 @@ const Services = () => {
           Project Management
           </h3>
 
-          <p>GIRAF PM provides services for every step of a projectï¿½s life-cycle.</p><p> This includes searching for funding opportunities, shaping a project idea to make it fundable by a particular funding scheme, designing a project (work plan creation, consortium building), competitive proposal writing, running project negotiations with funding agencies, and managerial support to project implementation (reporting, accounting, risk management, IPR management etc.)</p>
+          <p>GIRAF PM provides services for every step of a projects life-cycle.</p><p> This includes searching for funding opportunities, shaping a project idea to make it fundable by a particular funding scheme, designing a project (work plan creation, consortium building), competitive proposal writing, running project negotiations with funding agencies, and managerial support to project implementation (reporting, accounting, risk management, IPR management etc.)</p>
           <p> We know the business and can release you from the managerial burden of acquiring and running a project in order to enable you to stay focussed on essential things.</p>
           </div>
       
@@ -67,7 +67,7 @@ const Services = () => {
           </h3>
 
           <p>To be able to function with greatest efficiency, organisations need lean processes. GIRAF PM provides specialized consulting to achieve this goal.</p>
-          <p> The companyï¿½s business consulting services include requirements and process analysis, identification of bottlenecks and inefficiencies, design and development of optimized processes and IT-solutions, and implementation of new processes and corresponding IT-solutions. Having successfully designed and implemented processes and IT-solutions in dozens of projects (both public and private sector), GIRAF PM will help you finding the best solution for you.</p>
+          <p> The companys business consulting services include requirements and process analysis, identification of bottlenecks and inefficiencies, design and development of optimized processes and IT-solutions, and implementation of new processes and corresponding IT-solutions. Having successfully designed and implemented processes and IT-solutions in dozens of projects (both public and private sector), GIRAF PM will help you finding the best solution for you.</p>
           </div>
       
         </div>

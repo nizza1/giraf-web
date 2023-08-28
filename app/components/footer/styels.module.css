@@ -13,7 +13,37 @@
 .innerContainer {
     max-width: var(--max-width);
     margin-inline:auto ;
-    padding: 1rem var(--padding-inline);
+    padding: 2rem var(--padding-inline);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+
+}
+
+.contact .link {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-light);
+    width: fit-content;
+}
+
+.contact .link:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 700px) {
+    .innerContainer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .contact .link {
+        align-self: center;
+
+    }
 }
