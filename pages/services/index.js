@@ -4,6 +4,16 @@ import PageTitle from '@/app/components/pagescomponents/pageTitle/pageTitle'
 import pageStyles from '../pages.module.css'
 
 import styles from './styles.module.css'
+
+import Image from 'next/image'
+
+
+const project = '/illustrations/project.svg'
+const business = '/illustrations/business.svg'
+const training = '/illustrations/training.svg'
+const translation = '/illustrations/translation.svg'
+
+
 const Services = () => {
   return (
     <div className={pageStyles.outContainer}>
@@ -19,7 +29,13 @@ const Services = () => {
         <div className={styles.serviceBox}>
 
           <div className={styles.illustrationContainer}>
-
+            <Image
+            src= {project} 
+            alt="Project Illustration"
+            width={300}
+            height={300}
+            className={styles.image}
+            />
           </div>
 
           <div className={styles.textContainer}>
@@ -36,7 +52,13 @@ const Services = () => {
         <div className={styles.serviceBox}>
 
           <div className={styles.illustrationContainer}>
-
+            <Image
+            src= {business} 
+            alt="business Illustration"
+            width={300}
+            height={300}
+            className={styles.image}
+            />
           </div>
 
           <div className={styles.textContainer}>
@@ -53,7 +75,13 @@ const Services = () => {
         <div className={styles.serviceBox}>
 
           <div className={styles.illustrationContainer}>
-
+          <Image
+            src= {training} 
+            alt="training Illustration"
+            width={300}
+            height={300}
+            className={styles.image}
+            />
           </div>
 
           <div className={styles.textContainer}>
@@ -70,7 +98,13 @@ const Services = () => {
          <div className={styles.serviceBox}>
 
           <div className={styles.illustrationContainer}>
-
+          <Image
+            src= {translation} 
+            alt="translation Illustration"
+            width={300}
+            height={300}
+            className={styles.image}
+            />
           </div>
 
           <div className={styles.textContainer}>
