@@ -9,6 +9,10 @@
     margin-inline: auto;
 }
 
+.projectBodyWrapper {
+    padding-inline: var(--padding-inline);
+}
+
 .projectsBody {
     padding-top: 2rem;
     padding-inline: 1rem ;

@@ -15,6 +15,7 @@ const Projects = () => {
         <PageTitle text='Projects' />
       </div>
 
+      <div className={styles.projectBodyWrapper}>
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
           <h2 className={styles.bodyTitle}>## MICROCASA (2023-2026)</h2>
@@ -47,8 +48,12 @@ const Projects = () => {
           
         </div>
       </div>
+      </div>
+
 
       <div className={styles.line}></div>
+
+      <div className={styles.projectBodyWrapper}>
 
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
@@ -78,10 +83,13 @@ const Projects = () => {
           
         </div>
       </div>
+      </div>
+      
 
       <div className={styles.line}></div>
 
 
+      <div className={styles.projectBodyWrapper}>
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
           <h2 className={styles.bodyTitle}>## ECoVEM (2020-2024)</h2>
@@ -102,6 +110,8 @@ const Projects = () => {
           
         </div>
       </div>
+      </div>
+     
 
     
     </div>
