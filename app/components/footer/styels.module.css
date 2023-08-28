@@ -16,7 +16,7 @@
     padding: 2rem var(--padding-inline);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
 }
 
@@ -41,9 +41,9 @@
     .innerContainer {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     .contact .link {
         align-self: center;
-
     }
 }
