@@ -12,6 +12,9 @@ import Titlesmall from '@/app/components/title/titlesmall/title'
 
 
 const Header = () => {
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
   const [isOpen , setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -44,10 +47,18 @@ const Header = () => {
             </div>
 
             <div className={`${styles.menuMobile} ${isOpen ? '' : styles.menuMobileClose}`}>
-            <Link className={styles.linksM} href="/">Home</Link>
-             <Link className={styles.linksM} href="/projects">Projects</Link>
-             <Link className={styles.linksM} href="/services">Services</Link>
-             <Link className={styles.linksM} href="/news">News</Link>
+            <Link className={styles.linksM}
+            onClick={closeMenu}
+             href="/">Home</Link>
+             <Link className={styles.linksM} 
+             onClick={closeMenu}
+             href="/projects">Projects</Link>
+             <Link className={styles.linksM} 
+             onClick={closeMenu}
+             href="/services">Services</Link>
+             <Link className={styles.linksM}
+             onClick={closeMenu}
+              href="/news">News</Link>
             </div>
    
         </div>
