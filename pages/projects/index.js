@@ -3,7 +3,10 @@ import React from 'react'
 import styles from './styles.module.css'
 import pageStyles from '../pages.module.css'
 
+
+//components 
 import PageTitle from '@/app/components/pagescomponents/pageTitle/pageTitle'
+import Tl from '@/app/components/tlProject/tl'
 
 //icons 
 import {BsListUl ,BsCheckCircle } from 'react-icons/bs';
@@ -16,6 +19,8 @@ const Projects = () => {
       </div>
 
       <div className={styles.projectBodyWrapper}>
+
+        <Tl year='2023-2026' />
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
           <h2 className={styles.bodyTitle}>## MICROCASA (2023-2026)</h2>
@@ -54,6 +59,7 @@ const Projects = () => {
       <div className={styles.line}></div>
 
       <div className={styles.projectBodyWrapper}>
+      <Tl year='2018-2022' />
 
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
@@ -90,6 +96,9 @@ const Projects = () => {
 
 
       <div className={styles.projectBodyWrapper}>
+
+      <Tl year='2020-2024' />
+
       <div className={styles.projectsBody}>
         <div className={styles.projectContainer}>
           <h2 className={styles.bodyTitle}>## ECoVEM (2020-2024)</h2>
