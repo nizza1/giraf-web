@@ -15,9 +15,12 @@
 }
 
 .time {
-    width: 12ch;
+    width: 16ch;
+    display: flex;
+    justify-content: center;
+   /*  min-width: 12ch; */
     position: absolute;
-    left: -3.5rem;
+    left: -4.7rem;
     top: 100px;
     border-radius: 16px;
     background-color: #EDF3FB;

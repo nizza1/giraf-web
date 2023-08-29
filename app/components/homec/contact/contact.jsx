@@ -22,7 +22,7 @@ const Contact = () => {
 
           <div className={styles.gradientBlue}></div>
           
-            <h1 className={styles.text}>GIT IN TOUCH</h1>
+            <h1 className={styles.text}>GET IN TOUCH</h1>
 
             <div className={styles.animationContainer}>
             <Lottie className={styles.animationsContact}
