@@ -15,6 +15,10 @@
     padding-bottom: 3rem;
 }
 
+.postContainer:last-child {
+    border-bottom: none;
+}
+
 .titleContainer {
 
     padding: 1.5rem 0 ;

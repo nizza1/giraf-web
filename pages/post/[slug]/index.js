@@ -70,6 +70,19 @@ function SlugPage({ data }) {
                  </p>
              </div>
       </div>
+
+      {data.mainImage && 
+         <div className={styles.mainImageContainer}>
+        <Image 
+        src={urlForImage(data.mainImage).url()}
+        alt={data.mainImage.alt}
+        className={styles.mainImage}
+        width={700}
+        height={700}
+        />
+      </div>
+      }
+     
      
       
 
