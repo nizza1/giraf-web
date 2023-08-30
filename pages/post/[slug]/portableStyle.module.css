@@ -17,3 +17,9 @@
 .outContainer p {
     line-height: 1.4rem;
 }
+
+@media (max-width: 600px) {
+    .outContainer {
+        padding: 1rem ;
+    }
+}
