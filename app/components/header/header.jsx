@@ -25,9 +25,13 @@ const Header = () => {
     <header className={styles.outContainer}>
 
         <div className={styles.innerContainer}>
-
+          
         <div className={styles.logoContainer}>
-            <Titlesmall text='GIRAF'/>
+
+        <Link href="/">
+            <Titlesmall text='GIRAF' />
+          </Link>
+
         </div>
          
         
