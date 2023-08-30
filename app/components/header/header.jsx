@@ -22,7 +22,7 @@ const Header = () => {
   };
 
   return (
-    <header className={styles.outContainer}>
+    <div className={styles.outContainer}>
 
         <div className={styles.innerContainer}>
           
@@ -67,7 +67,7 @@ const Header = () => {
    
         </div>
         
-    </header>
+    </div>
   )
 }
 
