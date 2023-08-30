@@ -110,3 +110,10 @@
     background-color: var(--border-light);
 
 }
+
+
+@media (max-width: 700px) {
+    .projectBodyWrapper {
+        column-gap: 1rem;
+    }
+}
