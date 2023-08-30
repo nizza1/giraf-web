@@ -1,8 +1,8 @@
 .outContainer {
 
-    width: var(--max-width);
+    max-width: 800px;
     margin-inline: auto;
-    padding: 1rem var(--padding-inline);
+    padding: 1rem 2rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
     display: flex;
@@ -12,4 +12,8 @@
 
 .outContainer li {
     margin-left: 1rem;
+}
+
+.outContainer p {
+    line-height: 1.4rem;
 }
