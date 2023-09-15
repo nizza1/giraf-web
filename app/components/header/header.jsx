@@ -1,7 +1,7 @@
 "use client"
 
 import React, {useState} from 'react'
-import Logo from 'next/image'
+
 
 //import styles 
 import styles from './styles.module.css'
@@ -12,10 +12,13 @@ import Titlesmall from '@/app/components/title/titlesmall/title'
 
 
 const Header = () => {
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
+
   const [isOpen , setIsOpen] = useState(false);
+
+  const closeMenu = () => {
+    isOpen ? setIsOpen(false) : null;
+    ;
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
