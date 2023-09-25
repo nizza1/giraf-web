@@ -97,6 +97,18 @@
     border: 1px solid var(--border-card);
     border-radius: var(--border-radius);
   }
+
+  .form input::placeholder {
+    font-style: italic;
+    font-size: .9rem;
+    opacity: .8;
+  }
+
+  .form textarea::placeholder {
+    font-style: italic;
+    font-size: .9rem;
+    opacity: .8;
+  }
   
   .form textarea {
     margin: 10px 0 10px 0px;

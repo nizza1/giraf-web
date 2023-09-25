@@ -39,6 +39,7 @@ const Contact = () => {
           id="frm-email"
           type="email"
           name="email"
+          placeholder="steve@example.com"
           autoComplete="email"
           required
         />
@@ -47,6 +48,7 @@ const Contact = () => {
         <label htmlFor="frm-phone">Phone</label>
         <input
           id="frm-phone"
+          placeholder="your phone number"
           type="text"
           name="phone"
           autoComplete="tel"
@@ -58,6 +60,7 @@ const Contact = () => {
           <label htmlFor="frm-first"> Name</label>
           <input
             id="frm-first"
+            placeholder="your name"
             type="text"
             name="first"
             autoComplete="given-name"
@@ -68,7 +71,8 @@ const Contact = () => {
       </div>
       <div className={`${styles.message} ${styles.block}`}>
         <label htmlFor="frm-message">Message</label>
-        <textarea className={styles.textarea} id="frm-message" rows="6" name="message"></textarea>
+        <textarea className={styles.textarea} id="frm-message" rows="6" name="message" placeholder="your message"
+        ></textarea>
       </div>
       <div className={`${styles.button} ${styles.block}`}>
        
