@@ -31,9 +31,7 @@
     margin-inline: auto;
     padding-bottom: 200px;
     background:  linear-gradient(rgba(57, 143, 255, 0.366), rgba(0, 0, 0, 0)); 
-/*   --tile-border */
-  /* background: var(  --secondary-glow); */
- 
+   
     border-radius: var(--border-radius);
 }
 
@@ -109,6 +107,15 @@
     margin: 100px auto;
     background-color: var(--border-light);
 
+}
+
+.undTitle {
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.undTitle span {
+    font-size: 1.3rem;
 }
 
 

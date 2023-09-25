@@ -60,13 +60,13 @@ function SlugPage({ data }) {
       <div className={styles.postDateContainer}>
              <div >
                 <h1 >
-                        {data.title}
+                        {data && data.title}
                  </h1>
              </div>
 
              <div>
                  <p >
-                           {new Date(data._createdAt).toISOString().split("T")[0]}
+                           {data && new Date(data._createdAt).toISOString().split("T")[0]}
                  </p>
              </div>
       </div>

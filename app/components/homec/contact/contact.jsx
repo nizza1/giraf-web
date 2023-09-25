@@ -16,8 +16,8 @@ import contactAnimations from '@/app/animations/animation_ll5965nn.json';
 /* container to form changed */
 const Contact = () => {
   return (
-    <div className={styles.outContainer}>
-        <div className={styles.innerSection}>
+    <div className={styles.outContainer} id='contact-form'>
+        <div className={styles.innerSection} >
         <div className={styles.textAnimations}>
 
           <div className={styles.gradientBlue}></div>
@@ -31,7 +31,7 @@ const Contact = () => {
 
         </div>
 
-        <form id='contact-form' className={styles.form}>
+        <form className={styles.form}>
      
       <div className={`${styles.email} ${styles.block}`}>
         <label  htmlFor="frm-email">Email</label>
@@ -71,7 +71,7 @@ const Contact = () => {
         <textarea className={styles.textarea} id="frm-message" rows="6" name="message"></textarea>
       </div>
       <div className={`${styles.button} ${styles.block}`}>
-       {/*  <button type="submit">Send</button> */}
+       
        
       </div>
       <ContactButton text='Send'/>

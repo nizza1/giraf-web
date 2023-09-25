@@ -1,6 +1,5 @@
 .outContainer {
     position: fixed ;
- /*     position: sticky; */
     width: 100%;
      top: 0px;
      background-color: var(--header-bk);
@@ -64,7 +63,6 @@
     left: 0;
 }
 
- /* navutton animation */ 
  .navButton.open .line {
     transform: translateX(-30px);
     background: transparent;
@@ -94,10 +92,7 @@
 
 .links:hover {
     background-color: rgba(0, 0, 0, 0.066);
-  /*   background-color: rgba(0, 0, 0, 0.263); */
-/*   background-color: transparent; */
   outline: 1px solid transparent;
-   /*  color : aliceblue; */
     transform: scale(1.1);
 }
 
@@ -146,28 +141,3 @@
     }
 }
 
- /*    .navmenu {
-
-        flex-direction: column;
-        position: absolute;
-        top: 68px;
-        right: 0;
-        background-color: aliceblue;
-        row-gap: 2rem;
-        width: 100%;
-        height: 100vh;
-        align-items: start;
-        justify-content: start;
-        padding: 3rem 0 0 2rem;
-    }
-
-    .links {
-        outline: transparent ;
-
-        font-size: 2rem;
-       
-    } 
-
-    .links:hover {
-        padding-left: 3rem;
-    }*/

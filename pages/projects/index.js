@@ -9,7 +9,9 @@ import PageTitle from '@/app/components/pagescomponents/pageTitle/pageTitle'
 import Tl from '@/app/components/tlProject/tl'
 
 //icons 
-import {BsListUl ,BsCheckCircle } from 'react-icons/bs';
+import {BsListUl ,BsCheckCircle , BsCircle } from 'react-icons/bs';
+import {FaRegDotCircle } from 'react-icons/fa';
+
 
 const Projects = () => {
   return (
@@ -19,6 +21,73 @@ const Projects = () => {
       </div>
 
         <div className={styles.pageBody}>
+
+      
+        <div className={styles.projectBodyWrapper}>
+
+             <Tl year='2024-2026' />
+             <div className={styles.projectsBody}>
+             <div className={styles.projectContainer}>
+               <h2 className={styles.bodyTitle}>## MICRO-GEAR, EU Erasmus2027 CBHE (Strand 3)</h2>
+               <p className={styles.description}>Micro-GEAR is dedicated to supporting structural reforms within the South Caucasus region's higher education sector, with a primary focus on Georgia and Armenia. Our mission is centered around the introduction and facilitation of micro-credentials as a tool to enhance the relevance, quality, and flexibility of higher education.</p>
+               
+
+               <p className={styles.listDes}>
+                 <BsListUl className={styles.icon}/> 
+                 Key Objectives: </p>
+
+               <ul className={styles.lists}>
+                 <li><BsCheckCircle className={styles.listIcon}/> 
+                 Updating National Qualifications Frameworks in Georgia and Armenia.</li>
+
+                 <li><BsCheckCircle className={styles.listIcon}/>
+                 Building national consensus on micro-credentialing principles.</li>
+
+                 <li><BsCheckCircle className={styles.listIcon}/>
+                 Encouraging educational initiatives leading to micro-credentials.</li>
+
+                 <li><BsCheckCircle className={styles.listIcon}/>
+                 Promoting the mutual recognition of micro-credentials.</li>
+               </ul>
+
+               <h4 className={styles.bottomText}>Our Approach:</h4>
+
+               <p className={styles.description}>To validate the proposed reforms and provide valuable feedback at the policy level, we will implement a pilot program. This program encompasses capacity building on micro-credentials and the development of educational units leading to micro-credentials.</p>
+
+               <h4 className={styles.bottomText}>Dissemination and Sustainability:</h4>
+
+               <p className={styles.description}>To validate the Our project's dissemination and sustainability activities will ensure that the obtained results reach all relevant education and training providers in the beneficiary countries and the broader region.</p>
+
+               <h4 className={styles.bottomText}>Partners: </h4>
+               <h5 className={styles.undTitle}>Our collaborative effort includes key stakeholders from Georgia <span>🇬🇪</span> and Armenia <span>🇦🇲</span>:</h5>
+
+               <ul className={styles.lists}>
+                 <li><BsCircle className={styles.listIcon}/> 
+                 Updating National Qualifications Frameworks in Georgia and Armenia.</li>
+
+                 <li><BsCircle className={styles.listIcon}/>
+                 Building national consensus on micro-credentialing principles.</li>
+
+                 <li><BsCircle className={styles.listIcon}/>
+                 Encouraging educational initiatives leading to micro-credentials.</li>
+
+                 <li><BsCircle className={styles.listIcon}/>
+                 Promoting the mutual recognition of micro-credentials.</li>
+               </ul>
+               
+
+               <h4 className={styles.bottomText}>On the European side, our consortium includes three Higher Education Institutions with complementary competencies and the Italian ENIC-NARIC Centre.</h4>
+
+               <h5 className={styles.highlight}>GIRAF is a consortium member leading the work package on Quality Assurance.
+               </h5>
+
+              
+  
+        </div>
+        </div>
+        </div>
+
+        <div className={styles.line}></div>
 
         
       <div className={styles.projectBodyWrapper}>
