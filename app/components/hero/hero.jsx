@@ -34,11 +34,9 @@ const Hero = () => {
             Your trusted multilateral project catalyst for fostering collaborative excellence in global research and education initiatives
             </p>
 
-            <Link
-            href="#contact-form"
-             >
+            
             <Contact text='GET IN TOUCH'/>
-            </Link>
+           
 
      
            
