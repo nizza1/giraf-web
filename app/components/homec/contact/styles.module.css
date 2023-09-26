@@ -16,7 +16,6 @@
 }
 
 .textAnimations {
-/*   background-color: green; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,7 +39,6 @@
 }
 
 .animationsContact {
-/*   background-color: red; */
     width: 100%;
 }
 
@@ -88,7 +86,7 @@
   }
   
   .form input {
-    font-size: 1rem;
+    font-size: .9rem;
     margin: 10px 0 10px 0px;
     border-color: rgb(31, 28, 28);
     padding: 10px;
@@ -116,7 +114,7 @@
     border: 1px solid var(--border-card);
     border-radius: var(--border-radius);
     background-color:transparent;
-    font-size: 20px;
+    font-size: .9rem;
   }
   
   
