@@ -140,4 +140,5 @@
   
   .textarea {
     resize: none;
+    font-family: 'Inter', sans-serif; 
   }

@@ -39,7 +39,7 @@ const Contact = () => {
           id="frm-email"
           type="email"
           name="email"
-          placeholder="steve@example.com"
+          placeholder="e.g steve@example.com"
           autoComplete="email"
           required
         />
@@ -60,7 +60,7 @@ const Contact = () => {
           <label htmlFor="frm-first"> Name</label>
           <input
             id="frm-first"
-            placeholder="your name"
+            placeholder="e.g steve"
             type="text"
             name="first"
             autoComplete="given-name"
