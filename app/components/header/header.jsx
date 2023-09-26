@@ -17,11 +17,11 @@ const Header = () => {
 
   const closeMenu = () => {
     isOpen ? setIsOpen(false) : null 
-  };
+  }
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  };
+  }
 
   return (
     <div className={styles.outContainer}>
