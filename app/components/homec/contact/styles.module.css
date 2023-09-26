@@ -69,6 +69,8 @@
 .block {
     display: flex;
     flex-direction: column;
+    position: relative;
+
   }
   
 
@@ -89,23 +91,37 @@
     font-size: .9rem;
     margin: 10px 0 10px 0px;
     border-color: rgb(31, 28, 28);
-    padding: 10px;
+    padding: 10px ;
     border-radius: 5px;
     background-color: transparent;
     border: 1px solid var(--border-card);
     border-radius: var(--border-radius);
+
+  }
+
+  .form input:not(:placeholder-shown) + .iconss {
+
+    opacity: 0;
   }
 
   .form input::placeholder {
     font-style: italic;
     font-size: .9rem;
     opacity: .8;
+    padding: 0 0 0 2.2rem;
   }
 
   .form textarea::placeholder {
     font-style: italic;
     font-size: .9rem;
     opacity: .8;
+    padding: 0 0 0 3rem;
+  
+  }
+
+  .form textarea:not(:placeholder-shown) + .iconss {
+
+    opacity: 0;
   }
   
   .form textarea {
@@ -139,4 +155,15 @@
   .textarea {
     resize: none;
     font-family: 'Inter', sans-serif; 
+  }
+
+  .iconss {
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    z-index: 33;
+    font-size: 1.2rem;
+    opacity: .7;
+    color: var(--blue-dark);
+    transition-duration: .2s;
   }

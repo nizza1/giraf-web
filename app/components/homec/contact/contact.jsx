@@ -12,7 +12,11 @@ import ContactButton from '@/app/components/buttons/contact/contactButton'
 import Lottie from "lottie-react";
 import contactAnimations from '@/app/animations/animation_ll5965nn.json';
 
-
+//icons 
+import {MdAlternateEmail} from 'react-icons/md'
+import {BsTelephoneOutbound} from 'react-icons/bs'
+import {RxAvatar} from 'react-icons/rx'
+import {AiOutlineMessage} from 'react-icons/ai'
 /* container to form changed */
 const Contact = () => {
 
@@ -81,12 +85,13 @@ const Contact = () => {
           id="frm-email"
           type="email"
           name="email"
-          placeholder="e.g steve@example.com"
+          placeholder="e.g steve@example.com" 
           autoComplete="email"
           required
           value={formData.email} 
           onChange={handleChange} 
         />
+        <MdAlternateEmail className={styles.iconss}/>
       </div>
       <div className={`${styles.phone} ${styles.block}`}>
         <label htmlFor="frm-phone">Phone</label>
@@ -100,6 +105,7 @@ const Contact = () => {
           value={formData.phone} 
           onChange={handleChange} 
         />
+          <BsTelephoneOutbound className={styles.iconss}/>
       </div>
       <div className={`${styles.name} ${styles.block}`}>
         <div>
@@ -114,6 +120,7 @@ const Contact = () => {
             value={formData.name} 
             onChange={handleChange} 
           />
+            <RxAvatar className={styles.iconss}/>
         </div>
    
       </div>
@@ -123,6 +130,7 @@ const Contact = () => {
         value={formData.message} 
         onChange={handleChange} 
         ></textarea>
+          <AiOutlineMessage className={styles.iconss}/>
       </div>
       <div className={`${styles.button} ${styles.block}`}>
        
