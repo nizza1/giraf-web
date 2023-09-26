@@ -49,6 +49,13 @@
     margin-inline: auto;
 }
 
+.descriptionP {
+    line-height: 1.4rem;
+    margin: 1rem 0;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
 .icon {
     width: 20px ;
     height: 20px ;
