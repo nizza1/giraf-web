@@ -10,9 +10,9 @@ import Contact from '@/app/components/homec/contact/contact'
 export default function Home() {
   return (
     <>
-    <Navbar />
+   
     <main className={styles.main}>
-        
+    <Navbar />
         <Hero />
         <HomeMain />
         <Contact />
