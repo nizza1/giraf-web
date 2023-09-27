@@ -87,12 +87,12 @@
     padding: .3rem .7rem;
     border-radius: 1rem;
     transition-duration: .3s;
-    outline: 1px solid rgba(0, 0, 0, 0.066);
+    border: 1px solid rgba(0, 0, 0, 0.066);
 }
 
 .links:hover {
     background-color: rgba(0, 0, 0, 0.066);
-  outline: 1px solid transparent;
+    border: 1px solid transparent;
     transform: scale(1.1);
 }
 
