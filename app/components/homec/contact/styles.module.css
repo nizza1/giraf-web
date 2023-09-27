@@ -126,7 +126,7 @@
   
   .form textarea {
     margin: 10px 0 10px 0px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid var(--border-card);
     border-radius: var(--border-radius);
     background-color:transparent;
