@@ -161,7 +161,7 @@
     position: absolute;
     top: 2.5rem;
     left: 1rem;
-    z-index: 33;
+
     font-size: 1.2rem;
     opacity: .7;
     color: var(--blue-dark);
