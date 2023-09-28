@@ -23,7 +23,7 @@ import { mailOptions, transporter } from "/config/nodemailer";
         await transporter.sendMail({
             ...mailOptions,
             subject: 'my website',
-            text: 'this is a test string',
+            text: data.message,
             html: `<h3>E-Mail : ${data.email}</h3> 
             <h3>phone : ${data.phone}</h3> 
             <h3>Name : ${data.name}</h3>
