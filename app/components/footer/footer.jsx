@@ -20,7 +20,7 @@ const Footer = () => {
             <div className={styles.nuance}>
             <p>Created by Nuance Studio</p>
             <div >
-            <a href="https://www.nuancestudio.de/" target="_blank"        rel="noopener noreferrer">
+            <a href="https://www.nuastudio.de/" target="_blank"        rel="noopener noreferrer">
               <Image
                src="nuance.svg"
                 alt="nuance studio"
