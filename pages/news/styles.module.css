@@ -27,3 +27,7 @@
 .blogLink {
     color : var(--blue-dark)
 }
+
+.noLink {
+    color: rgb(246, 88, 88);
+}

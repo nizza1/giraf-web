@@ -48,14 +48,17 @@ const News = () => {
                   </h3>
              </div>
 
-            <Link
+             {post.slug ? 
+              <Link
                 className={styles.blogLink}
                 href={`/post/${post?.slug?.current}`}
                 prefetch
               >
                <p>READ MORE</p>
               </Link>
-
+             :
+              <p className={styles.noLink}>No link for the post found (no slug post defined)</p>
+             }
               
           </div>
          ))}
