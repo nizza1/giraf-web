@@ -50,7 +50,7 @@ const News = () => {
 
             <Link
                 className={styles.blogLink}
-                href={`/post/${post.slug.current}`}
+                href={`/post/${post?.slug?.current}`}
                 prefetch
               >
                <p>READ MORE</p>
