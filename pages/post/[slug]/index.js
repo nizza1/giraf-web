@@ -71,7 +71,7 @@ function SlugPage({ data }) {
              </div>
       </div>
 
-      {data.mainImage && 
+      {data?.mainImage && 
          <div className={styles.mainImageContainer}>
         <Image 
         src={urlForImage(data.mainImage).url()}
@@ -90,7 +90,7 @@ function SlugPage({ data }) {
            
             <PortableText
               
-             value={data.body}
+             value={data?.body}
              components={PortableTextComponent}
             />
             
